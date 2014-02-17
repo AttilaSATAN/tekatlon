@@ -1,0 +1,13 @@
+<div class="lupus-disko" ng-style="style">
+    <div class="lupus-disko-outer-wrapper " ng-repeat="slide in slides" ng-switch on="slide.type" ng-repeat="slide in slides" >
+        <div lupus-disko-img-wrapper slide-no="slideNo" ng-switch-when="image">
+        </div>
+        <div style="position:absolute; bottom:80px; right:20px">
+            <div ng-show="slide.captionUrl" class="lupus-disko-caption" ><h1>{{slide.captionUrl}}</h1></div>
+        </div>
+    </div>
+    <div style="position:absolute; bottom:80px; right:20px">
+        <div ng-show="slide.captionUrl" class="lupus-disko-caption"><h1>{{slide.captionUrl}}</h1></div>
+        <button ng-click="prev()" class="btn lupus-prev">önceki</button><button ng-click="next()" class="btn lupus-next">sonraki</button>
+    </div>
+</div>

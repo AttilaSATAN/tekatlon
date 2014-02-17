@@ -1,0 +1,131 @@
+lupus-disko,
+.lupus-disko {
+  background: url(../img/hi-tech.jpg) #000000 center center no-repeat;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.lupus-disko {
+  overflow: hidden;
+  position: relative;
+}
+lupus-disko-wrapper,
+.lupus-disko-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+lupus-disko-wrapper img,
+.lupus-disko-wrapper img {
+  top: 0;
+  left: 0;
+}
+lupus-disko-wrapper .lupus-disko-caption,
+.lupus-disko-wrapper .lupus-disko-caption {
+  position: absolute;
+  bottom: 50px;
+  right: 20px;
+  padding: 20px;
+}
+.lupus-disko-outer-wrapper {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.lupus-disko-outer-wrapper .lupus-disko-wrapper.lupus-img img {
+  display: block;
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+  opacity: 0.01;
+  min-height: 1px;
+}
+.lupus-disko-outer-wrapper .lupus-disko-wrapper.lupus-img.active img {
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+  opacity: 1;
+}
+.capanime.ng-enter {
+  -webkit-animation: 1s fadeInRight;
+  animation: 1s fadeInRight;
+}
+.navbar {
+  position: static;
+  margin-bottom: 0;
+}
+.viewTop {
+  overflow: hidden;
+}
+.viewTop.ng-enter {
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 0;
+  height: 0;
+}
+.viewTop.ng-enter.ng-enter-active {
+  opacity: 1;
+  height: 616px;
+}
+.navbar {
+  background-color: #4296f8;
+  border-bottom: 1px solid #5ba4f9;
+}
+.navbar .nav > li > a {
+  border-left: 1px solid #5ba4f9;
+}
+.navbar .nav > li > a:hover,
+.navbar .nav > li a:focus {
+  background-color: #0862cc;
+}
+.navbar a {
+  color: #fff;
+}
+.navbar-nav {
+  margin: 0;
+}
+.container.full-width {
+  width: 100%;
+  max-width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+.container.full-width .row {
+  margin: 0;
+}
+.container.full-width .row .col-sm-1,
+.container.full-width .row .col-sm-2,
+.container.full-width .row .col-sm-3,
+.container.full-width .row .col-sm-4,
+.container.full-width .row .col-sm-5,
+.container.full-width .row .col-sm-6,
+.container.full-width .row .col-sm-7,
+.container.full-width .row .col-sm-8,
+.container.full-width .row .col-sm-9,
+.container.full-width .row .col-sm-10,
+.container.full-width .row .col-sm-11,
+.container.full-width .row .col-sm-12 {
+  padding: 0;
+}
+.kategoriler > a {
+  font-size: 20px;
+  line-height: 40px;
+  padding: 0 20px;
+  display: block;
+  color: #fff;
+  background-color: #4296f8;
+  border-bottom: 1px solid #5ba4f9;
+}
+.kategoriler > a:hover,
+.kategoriler a:focus {
+  text-decoration: none;
+  background-color: #0862cc;
+}
+.alt-kategoriler .kategoriler > a {
+  font-size: 15px;
+  background-color: #0862cc;
+}
+.alt-kategoriler .kategoriler > a:hover,
+.alt-kategoriler .kategoriler a:focus {
+  background-color: #064b9b;
+}
