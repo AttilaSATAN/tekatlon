@@ -1,0 +1,26 @@
+lupus-disko,
+.lupus-disko {
+  background: #000000;
+  width: 100%;
+}
+lupus-disko-wrapper,
+.lupus-disko-wrapper {
+  min-height: 595px;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+lupus-disko-wrapper img,
+.lupus-disko-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
+lupus-disko-wrapper .lupus-disko-caption,
+.lupus-disko-wrapper .lupus-disko-caption {
+  position: absolute;
+}
+.navbar-nav.navbar-right:last-child {
+  margin-right: 0;
+}

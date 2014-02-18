@@ -1,0 +1,14 @@
+<div class="navbar " ng-style="style"role="navigation">
+
+    <div class="navbar-header navbar-brand">
+        <a ui-sref="home">Tekatlon<small>.com</small></a>
+    </div>
+    <div>
+        <ul class="nav navbar-nav main-navigation">
+            <li ng-repeat="link in links">
+                <a ui-sref="{{link.sref}}">{{link.name}}</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /.nav-collapse -->
+</div>
