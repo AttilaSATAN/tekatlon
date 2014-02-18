@@ -22,9 +22,12 @@ lupusshow.run(
             }, {
                 name: 'İletişim',
                 sref: 'home'
+<<<<<<< HEAD
             }, {
                 name: 'Telefonlar',
                 sref: 'telefonlar'
+=======
+>>>>>>> ef81955da3864ad7c61e9a09723c484008d3eb60
             }];
             $rootScope.goster1 = false;
             $rootScope.goster2 = false;

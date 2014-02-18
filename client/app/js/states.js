@@ -43,6 +43,7 @@ angular.module('lupusshow')
                             },
 
                         }
+<<<<<<< HEAD
                     }).state('telefonlar', {
                         url: '/telefonlar',
                         views: {
@@ -57,6 +58,8 @@ angular.module('lupusshow')
                             },
 
                         }
+=======
+>>>>>>> ef81955da3864ad7c61e9a09723c484008d3eb60
                     });
             }
         ]);

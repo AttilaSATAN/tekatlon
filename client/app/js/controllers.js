@@ -3,8 +3,13 @@
 angular.module('lupusshow.controllers', [])
     .controller('HomeCtrl', function ($scope) {
         "use strict";
+<<<<<<< HEAD
 
 
+=======
+        
+                
+>>>>>>> ef81955da3864ad7c61e9a09723c484008d3eb60
         $scope.diskoBG = {
             type: 'image',
             src: 'http://lorempixel.com/g/1920/595',
@@ -15,15 +20,24 @@ angular.module('lupusshow.controllers', [])
             type: 'image',
             src: 'img/dummy-slide-1.jpg',
             captionUrl: 'cap1'
+<<<<<<< HEAD
         }, {
             type: 'image',
             src: 'img/dummy-slide-4.jpg',
             captionUrl: 'cap big 4'
         }, {
+=======
+        },{
+            type: 'image',
+            src: 'img/dummy-slide-4.jpg',
+            captionUrl: 'cap big 4'
+        },{
+>>>>>>> ef81955da3864ad7c61e9a09723c484008d3eb60
             type: 'image',
             src: 'img/dummy-slide-2.jpg',
             captionUrl: 'cap big'
         }];
+<<<<<<< HEAD
 
     })
     .controller('TelefonlarCtrl', function ($scope) {
@@ -114,3 +128,6 @@ angular.module('lupusshow.controllers', [])
             brand:'Sony'
         }]
     })
+=======
+    });
+>>>>>>> ef81955da3864ad7c61e9a09723c484008d3eb60
